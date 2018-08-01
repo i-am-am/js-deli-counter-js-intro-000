@@ -17,7 +17,7 @@ function currentLine(line){
     return "The line is currently empty."
   } else {
     var sline = `The line is currently:`
-    for (var i = 0; i > line.length; i++){
+    for (var i = 0; i < line.length; i++){
       sline += ` ${i + 1}. ${line[i]}`
       if (i != line.length) {
         sline += `,`
